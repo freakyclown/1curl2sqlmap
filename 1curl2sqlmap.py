@@ -1,7 +1,7 @@
 import re
 import sys
 
-kommand = "~/pcsl/sqlmapproject-sqlmap-98d27ef/sqlmap.py -o -a --batch -t c2s.txt --proxy='http://127.0.0.1:8080' "
+kommand = "sqlmap.py -o -a --batch -t c2s.txt --proxy='http://127.0.0.1:8080' "
 
 header = ""
 cookie = ""
